@@ -278,8 +278,8 @@ namespace MaquinaDeCafe
             this.Controls.Add(this.btn_Mocha);
             this.Controls.Add(this.btn_Cappuccino);
             this.Name = "frm_MaquinaCafe";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maquina de Café Virtual";
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

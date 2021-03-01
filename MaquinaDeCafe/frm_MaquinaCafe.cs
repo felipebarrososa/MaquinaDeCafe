@@ -101,9 +101,9 @@ namespace MaquinaDeCafe
             String resultado;
             double troco;
             int i, valor, contador;
-            
-            troco = valorInserido - valorCafe ;
-            resultado = "\n Retire Seu Café\n" + " Troco = R$   " +troco + "\n\n";
+
+            troco = valorInserido - valorCafe;
+            resultado = "\n Retire Seu Café\n" + " Troco = R$   " + troco + "\n\n";
             // definindo do troco (parte inteira)
             valor = (int)troco;
             i = 0; while (valor != 0)
@@ -130,7 +130,7 @@ namespace MaquinaDeCafe
                 // calculando a qtde de moedas
                 if (contador != 0)
                 {
-                    resultado = resultado + (contador + " moeda(s) de " +moedas[i] + " centavo(s)\n");
+                    resultado = resultado + (contador + " moeda(s) de " + moedas[i] + " centavo(s)\n");
                     valor = valor % moedas[i];
                     // sobra
                 }
@@ -143,7 +143,7 @@ namespace MaquinaDeCafe
 
         //Comando colocado dentro de um botão////
 
-       
+
 
         private void btn_TirarCafé_Click(object sender, EventArgs e)         
 	    {
